@@ -1,0 +1,5 @@
+phpbench:
+  image: "php:7.1"
+  command: "vendor/bin/phpbench run Marker"
+  volumes: [".:/opt/app"]
+  working_dir: "/opt/app"

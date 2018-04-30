@@ -1,0 +1,21 @@
+{
+    "name": "phpdocumentor/benchmarks",
+    "description": "Phpdocumentor benchmarks project to experiment with ceveral methods to parse code",
+    "type": "project",
+    "require": {
+        "phpbench/phpbench": "@dev",
+        "phpunit/phpunit": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaapio",
+            "email": "jaap@ijaap.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpDocumentor\\Marker\\": "Marker"
+        }
+    }
+}
